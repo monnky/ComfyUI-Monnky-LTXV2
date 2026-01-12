@@ -22,10 +22,10 @@ license = {file = "LICENSE"}
 
 
 [project.urls]
-Repository = "https://github.com/princepainter/ComfyUI-PainterLTXV2"
+Repository = "Repository = "https://github.com/monnky/ComfyUI-Monnky-LTXV2"
 #  Used by Comfy Registry https://registry.comfy.org
-Documentation = "https://github.com/princepainter/ComfyUI-PainterLTXV2/wiki"
-"Bug Tracker" = "https://github.com/princepainter/ComfyUI-PainterLTXV2/issues"
+Documentation = "https://github.com/monnky/ComfyUI-Monnky-LTXV2/wiki"
+"Bug Tracker" = "https://github.com/monnky/ComfyUI-Monnky-LTXV2/issues"
 
 [tool.comfy]
 PublisherId = ""
