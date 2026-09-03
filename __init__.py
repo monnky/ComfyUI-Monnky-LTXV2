@@ -1,17 +1,5 @@
-from .PainterSamplerLTXV import PainterSamplerLTXV
-from .PainterLTX2VPlus import PainterLTX2VPlus
-from .PainterLTX2V import PainterLTX2V
+__version__ = "1.0.1"
 
-NODE_CLASS_MAPPINGS = {
-    "PainterSamplerLTXV": PainterSamplerLTXV,
-    "PainterLTX2VPlus": PainterLTX2VPlus,
-    "PainterLTX2V": PainterLTX2V,
-}
+from .nodes import comfy_entrypoint
 
-NODE_DISPLAY_NAME_MAPPINGS = {
-    "PainterSamplerLTXV": "Painter Sampler LTXV",
-    "PainterLTX2VPlus": "Painter LTX2V Plus",
-    "PainterLTX2V": "Painter LTX2V",
-}
-
-__all__ = ["NODE_CLASS_MAPPINGS", "NODE_DISPLAY_NAME_MAPPINGS"]
+__all__ = ["comfy_entrypoint"]
